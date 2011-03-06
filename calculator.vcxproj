@@ -86,6 +86,8 @@
     <CustomBuild Include="calculator.idl">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\..\nixysa\codegen.bat --output-dir=glue --generate=npapi --force %(Filename)%(Extension)</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glue\%(Filename)_glue.cc;glue\%(Filename)_glue.h;glue\globals_glue.cc;glue\globals_glue.h;glue\hash;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\..\nixysa\codegen.bat --output-dir=glue --generate=npapi --force %(Filename)%(Extension)</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glue\%(Filename)_glue.cc;glue\%(Filename)_glue.h;glue\globals_glue.cc;glue\globals_glue.h;glue\hash;%(Outputs)</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
