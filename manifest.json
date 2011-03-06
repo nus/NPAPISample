@@ -1,0 +1,20 @@
+{
+  "name": "testCalculator",
+  "description": "Four Arithmetic Operations",
+  "icons": { "48": "icon.png",
+             "128": "icon.png" },
+  "version": "1.0.0.1",
+  "background_page": "test_calculator.html",
+  "permissions": [
+    "tabs",
+    "http://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Twitter",
+    "default_icon": "icon.png"
+  },
+  "plugins": [
+    {"path": "calculator.dll"}
+  ]
+}
+

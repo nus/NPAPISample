@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>test calculator.dll</title>
+        <script type="text/javascript">
+            function init() {
+                var plugin = document.getElementById("plugin");
+                var cl = plugin.Calculator();
+                if(!cl) {
+                    alert("no plugin!");
+                }
+                alert(cl.add(1,1));
+            }
+        </script>
+    </head>
+    <body onload="init()">
+        <object type="application/x-calculator" id="plugin" width="0" height="0"/>
+    </body>
+</html>
