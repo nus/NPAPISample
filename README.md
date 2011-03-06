@@ -1,57 +1,57 @@
-—v€
+è¦é …
 ====
-Nixysa‚ÅGoogle Chrome—p‚ÌƒTƒ“ƒvƒ‹ƒvƒ‰ƒOƒCƒ“‚ğì‚Á‚Ä‚İ‚½
-l‘¥‰‰Z‚ğs‚¤ƒvƒ‰ƒOƒCƒ“
+Nixysaã§Google Chromeç”¨ã®ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’ä½œã£ã¦ã¿ãŸ
+å››å‰‡æ¼”ç®—ã‚’è¡Œã†ãƒ—ãƒ©ã‚°ã‚¤ãƒ³
 
-‘ÎÛŠÂ‹«
+å¯¾è±¡ç’°å¢ƒ
 ========
-- Nixysa (NPAPI‚Ìƒ‰ƒbƒvƒ‰ƒCƒuƒ‰ƒŠ)
-- Subversion or TortoiseSVN (Nixysa‚ÌƒR[ƒhæ“¾—p)
+- Nixysa (NPAPIã®ãƒ©ãƒƒãƒ—ãƒ©ã‚¤ãƒ–ãƒ©ãƒª)
+- Subversion or TortoiseSVN (Nixysaã®ã‚³ãƒ¼ãƒ‰å–å¾—ç”¨)
 - git
-- Python (Nixysa‚ğ“®ì‚³‚¹‚é‚½‚ß)
-- Visual C++ 2010 (ƒvƒ‰ƒOƒCƒ“‚Ìƒrƒ‹ƒh)
+- Python (Nixysaã‚’å‹•ä½œã•ã›ã‚‹ãŸã‚)
+- Visual C++ 2010 (ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã®ãƒ“ãƒ«ãƒ‰)
 - Google Chrome 9
 
-ƒrƒ‹ƒh•û–@
+ãƒ“ãƒ«ãƒ‰æ–¹æ³•
 ==========
-ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚Å‚Ìì‹Æ
+ã‚³ãƒãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã§ã®ä½œæ¥­
     >svn checkout http://nixysa.googlecode.com/svn/trunk/ nixysa-read-only
     >cd nixysa-read-only
     >git clone git://github.com/nus/NPAPISample.git
     >start NPAPISample\calculator.sln
     
-Visual C++‚Å‚Ìì‹Æ
-1.ƒƒjƒ…[ƒo[ -> ƒrƒ‹ƒh -> \¬ƒ}ƒl[ƒWƒƒ[
-ƒAƒNƒeƒBƒuƒ\ƒŠƒ…[ƒVƒ‡ƒ“\¬‚Ì[Debug]‚©‚ç[Release]‚É•ÏX
-2.ƒƒjƒ…[ƒo[ -> ƒrƒ‹ƒh -> calculator‚Ìƒrƒ‹ƒh
+Visual C++ã§ã®ä½œæ¥­
+1.ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒãƒ¼ -> ãƒ“ãƒ«ãƒ‰ -> æ§‹æˆãƒãƒãƒ¼ã‚¸ãƒ£ãƒ¼
+ã‚¢ã‚¯ãƒ†ã‚£ãƒ–ã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³æ§‹æˆã®[Debug]ã‹ã‚‰[Release]ã«å¤‰æ›´
+2.ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãƒãƒ¼ -> ãƒ“ãƒ«ãƒ‰ -> calculatorã®ãƒ“ãƒ«ãƒ‰
 
-‚à‚µA‰º‹L‚Ì—l‚Èƒrƒ‹ƒhƒGƒ‰[‚ª‹N‚«‚½‚ç
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C2146: \•¶ƒGƒ‰[ : ';' ‚ªA¯•Êq 'ContextRecord' ‚Ì‘O‚É•K—v‚Å‚·B
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C4430: Œ^w’èq‚ª‚ ‚è‚Ü‚¹‚ñ - int ‚Æ‰¼’è‚µ‚Ü‚µ‚½Bƒƒ‚: C++ ‚Í int ‚ğŠù’è’l‚Æ‚µ‚ÄƒTƒ|[ƒg‚µ‚Ä‚¢‚Ü‚¹‚ñ
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C4430: Œ^w’èq‚ª‚ ‚è‚Ü‚¹‚ñ - int ‚Æ‰¼’è‚µ‚Ü‚µ‚½Bƒƒ‚: C++ ‚Í int ‚ğŠù’è’l‚Æ‚µ‚ÄƒTƒ|[ƒg‚µ‚Ä‚¢‚Ü‚¹‚ñ
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12983): error C2065: 'PCONTEXT' : ’è‹`‚³‚ê‚Ä‚¢‚È‚¢¯•Êq‚Å‚·B
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2146: \•¶ƒGƒ‰[ : ')' ‚ªA¯•Êq 'ContextRecord' ‚Ì‘O‚É•K—v‚Å‚·B
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): warning C4229: ‹ŒŒ`®‚ªg—p‚³‚ê‚Ä‚¢‚Ü‚· : ƒf[ƒ^‚ÌCüq‚Í–³‹‚³‚ê‚Ü‚·B
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2182: 'RtlCaptureContext' : 'void' Œ^‚ª•s“KØ‚Ég—p‚³‚ê‚Ä‚¢‚Ü‚·B
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2491: 'RtlCaptureContext' : dllimport ƒf[ƒ^ ‚Ì’è‹`‚Í‹–‚³‚ê‚Ü‚¹‚ñB
-    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2059: \•¶ƒGƒ‰[ : ')'
-   ˆÈ‰º“¯—l‚ÈƒGƒ‰[
+ã‚‚ã—ã€ä¸‹è¨˜ã®æ§˜ãªãƒ“ãƒ«ãƒ‰ã‚¨ãƒ©ãƒ¼ãŒèµ·ããŸã‚‰
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C2146: æ§‹æ–‡ã‚¨ãƒ©ãƒ¼ : ';' ãŒã€è­˜åˆ¥å­ 'ContextRecord' ã®å‰ã«å¿…è¦ã§ã™ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C4430: å‹æŒ‡å®šå­ãŒã‚ã‚Šã¾ã›ã‚“ - int ã¨ä»®å®šã—ã¾ã—ãŸã€‚ãƒ¡ãƒ¢: C++ ã¯ int ã‚’æ—¢å®šå€¤ã¨ã—ã¦ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(6361): error C4430: å‹æŒ‡å®šå­ãŒã‚ã‚Šã¾ã›ã‚“ - int ã¨ä»®å®šã—ã¾ã—ãŸã€‚ãƒ¡ãƒ¢: C++ ã¯ int ã‚’æ—¢å®šå€¤ã¨ã—ã¦ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã›ã‚“
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12983): error C2065: 'PCONTEXT' : å®šç¾©ã•ã‚Œã¦ã„ãªã„è­˜åˆ¥å­ã§ã™ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2146: æ§‹æ–‡ã‚¨ãƒ©ãƒ¼ : ')' ãŒã€è­˜åˆ¥å­ 'ContextRecord' ã®å‰ã«å¿…è¦ã§ã™ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): warning C4229: æ—§å½¢å¼ãŒä½¿ç”¨ã•ã‚Œã¦ã„ã¾ã™ : ãƒ‡ãƒ¼ã‚¿ã®ä¿®é£¾å­ã¯ç„¡è¦–ã•ã‚Œã¾ã™ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2182: 'RtlCaptureContext' : 'void' å‹ãŒä¸é©åˆ‡ã«ä½¿ç”¨ã•ã‚Œã¦ã„ã¾ã™ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2491: 'RtlCaptureContext' : dllimport ãƒ‡ãƒ¼ã‚¿ ã®å®šç¾©ã¯è¨±ã•ã‚Œã¾ã›ã‚“ã€‚
+    1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(12984): error C2059: æ§‹æ–‡ã‚¨ãƒ©ãƒ¼ : ')'
+   ä»¥ä¸‹åŒæ§˜ãªã‚¨ãƒ©ãƒ¼
    ...
 
-nixysa-read-only\third_party\npapi\include\nptypes.h‚Ì48s–Ú‚É1s’Ç‰Á
+nixysa-read-only\third_party\npapi\include\nptypes.hã®48è¡Œç›®ã«1è¡Œè¿½åŠ 
     47|#if defined(WIN32) || defined(OS2)
-    48|    #include <Windows.h>	// ‚±‚Ìs‚ğ’Ç‰Á
+    48|    #include <Windows.h>	// ã“ã®è¡Œã‚’è¿½åŠ 
 
-nixysa-read-only\nixysa\static_glue\npapi\npn_api.h‚Ì107,108s–Ú‚Ì
+nixysa-read-only\nixysa\static_glue\npapi\npn_api.hã®107,108è¡Œç›®ã®
     107| size_t size = std::min(sizeof(g_browser_functions),
     108|                        static_cast<size_t>(funcs->size));
-‚ğ
+ã‚’
     107| size_t size;
     108| {
     109|     using namespace std;
     110|    size = min(sizeof(g_browser_functions),
     111|                      static_cast<size_t>(funcs->size));
     112| };
-‚É•ÏX
+ã«å¤‰æ›´
 
 
